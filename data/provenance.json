@@ -1,0 +1,15 @@
+{
+  "provider": "OpenStreetMap contributors",
+  "endpoint": "https://api.openstreetmap.org/api/0.6/map?bbox=71.394,51.084,71.425,51.102",
+  "fetchedAt": "2026-10-19T17:39:20.363Z",
+  "osmBaseTimestamp": null,
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "© OpenStreetMap contributors",
+  "attributionUrl": "https://www.openstreetmap.org/copyright",
+  "query": "OSM API 0.6 map bbox=71.394,51.084,71.425,51.102; local category filtering",
+  "rawElementCount": 3896,
+  "recordCount": 13,
+  "derivation": "Named cafes, libraries, parks, museums, attractions and malls. Restricted access/disused records and unverified NU campus interior excluded. Duplicate mall nodes within 100m of a mall polygon excluded. Polygon coordinates are bounding-box centers, not entrances. Descriptions derived only from tags.",
+  "transport": "Native Node fetch"
+}

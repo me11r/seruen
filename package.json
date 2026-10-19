@@ -1,0 +1,23 @@
+{
+  "name": "seruen-bulan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server.mjs",
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "build": "node scripts/build.mjs",
+    "collect": "node scripts/collect.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "collect:paths": "python3 scripts/collect-paths.py"
+  },
+  "dependencies": {
+    "leaflet": "1.9.4"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.3"
+  }
+}
